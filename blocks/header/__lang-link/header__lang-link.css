@@ -1,11 +1,10 @@
 .header__lang-link {
-  list-style: none;
-  text-decoration: underline;
+  margin: 0 0 0 18px;
   color: white;
-  margin-right: 18px;
   line-height: 28px;
   font-size: 24px;
   font-weight: 400;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 767px) {
@@ -15,7 +14,10 @@
   }
 }
 
-.header__lang-link:last-child {
-  text-decoration: none;
-  margin-right: 0;
+.header__lang-link:first-of-type {
+  margin-left: ;
+}
+
+.header__lang-link:hover {
+  opacity: .8;
 }

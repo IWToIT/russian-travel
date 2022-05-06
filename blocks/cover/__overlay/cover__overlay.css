@@ -30,7 +30,7 @@
   }
 }
 
-.cover:hover .cover__overlay {
+.cover__overlay:hover {
   transition: 1s ease-in-out;
-  background-color: rgba(42, 44, 47, .7);
+  background-color: rgba(42, 44, 47, .8);
 }
